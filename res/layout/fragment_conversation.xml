@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+   
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:background="#292C29" >
+    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textSize="25sp"
+	        android:text="连接状态"
+	        android:textColor="#ffffff"
+	        android:id="@+id/tv_conversation_detail_title"
+	        android:layout_centerInParent="true"
+	        />
+	</RelativeLayout>
+	    
+    
+  	 <ScrollView 
+  	       android:layout_width="fill_parent" 
+	       android:id="@+id/sv_state" 
+	       android:fadeScrollbars="true" 
+	       android:scrollbars="vertical" 
+	       android:layout_height="wrap_content" 
+	       android:layout_weight="1.00">
+           
+      <TextView 
+           android:id="@+id/tv_state" 
+           android:layout_width="fill_parent" 
+           android:text="" 
+           android:textSize="20sp"
+           android:layout_height="fill_parent"/>
+    
+      </ScrollView>
+    
+      <Button 
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" 
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:id="@+id/bt_connect" 
+	        android:text="连接"
+	        android:textSize="20sp"
+	        android:background="@drawable/selector_btn_bg"/>
+    
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BrainWaveTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="tab_conversation">连接</string>
+	<string name="tab_group">控制</string>
+	<string name="tab_search">采集</string>
+</resources>

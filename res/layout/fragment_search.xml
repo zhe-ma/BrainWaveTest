@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="信号强度 ： "
+        android:id="@+id/tv_control_signal"
+        />
+    
+    <View 
+	    android:layout_marginTop="10dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="#000000"
+	    />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ATTENTION   "
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#0000FF"
+        />
+    
+	<ProgressBar 
+	   android:id="@+id/pb_attention"
+	   android:layout_marginLeft="20dp"
+	   android:layout_marginRight="20dp"
+	   style="@android:style/Widget.ProgressBar.Horizontal"
+	   android:max="100"
+	   android:progress="0"
+	   android:layout_width="match_parent"
+	   android:layout_height="15dp"
+	   /> 
+	   
+	  <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" MEDITATION   "
+        android:layout_marginTop="10dp"
+  	    android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#0000FF"
+        />
+    
+	<ProgressBar 
+	   android:id="@+id/pb_meditation"
+	   android:layout_marginLeft="20dp"
+	   android:layout_marginRight="20dp"
+	   style="@android:style/Widget.ProgressBar.Horizontal"
+	   android:max="100"
+	   android:progress="0"
+	   android:layout_width="match_parent"
+	   android:layout_height="15dp"
+	   />
+	
+	 <View 
+	    android:layout_marginTop="10dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="#000000"
+	    />
+	 
+	<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" MEDITATION CONTROL  "
+        android:layout_marginTop="10dp"
+  	    android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#0000FF"
+        />
+   <com.basv.gifmoviewview.widget.GifMovieView
+        android:id="@+id/gif_bulb"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+		/>
+    <Button 
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" 
+            android:layout_marginTop="5dp"
+            android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:text="20"
+	        android:textSize="20sp"
+	        android:id="@+id/bt1"
+	        android:background="@drawable/selector_btn_bg"/>
+    <Button 
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" 
+            android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:text="60"
+	        android:textSize="20sp"
+	         android:id="@+id/bt2"
+	        android:background="@drawable/selector_btn_bg"/>
+    <Button 
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" 
+            android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:text="81"
+	        android:textSize="20sp"
+	        android:id="@+id/bt3"
+	        android:background="@drawable/selector_btn_bg"/>
+	
+</LinearLayout>
